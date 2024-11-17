@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundCloude: Log In</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="x-icon" href="slike/soundcloud.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <div class="video-container" id="videoContainer">
+    <video autoplay muted playsinline id="introVideo" class="fade-in">
+      <source src="slike/oblak.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="wrapper" id="loginWrapper" style="display: none;">
+    <img src="slike/logo.png" alt="Logo" class="logo">
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username" class="form-label">Username:</label>
+        <input type="text" name="username" id="username" class="form-input" maxlength="25" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="form-label">Password:</label>
+        <input type="password" name="password" id="password" class="form-input" maxlength="25" required>
+      </div>
+
+      <hr>
+
+      <div class="buttons">
+        <button type="submit" id="Button" class="button submit-button">Log In</button>
+      </div>
+
+      <div class="buttons">
+        <a href="reset.html">Forgot your password?</a>
+      </div>
+
+      <div class="buttons">
+        <p>Don't have an account?
+          <a href="signup.html">Sign up for SoundCloud</a>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>SoundCloud<sup>&copy;</sup></p>
+      </div>
+    </form>
+  </div>
+
+  <script src="javascript/sweetalert1.js"></script>
+  <script src="javascript/animacija.js"></script>
+</body>
+
+</html>

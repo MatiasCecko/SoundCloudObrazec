@@ -1,0 +1,245 @@
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+#introVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+body {
+  background-image: url('../slike/ozadje.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 0;
+  animation: transitionIn 0.75s;
+}
+
+::selection {
+  background: orange;
+  color: black;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+
+  width: 150px;
+
+  height: auto;
+
+  margin-bottom: 20px;
+}
+
+
+.wrapper {
+  width: 400px;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgb(240, 127, 28);
+  transition: transform 0.3s ease;
+
+
+}
+
+.wrapper:hover {
+  transform: scale(1.02);
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+.navodilo {
+  text-align: center;
+  font-size: 15px;
+}
+
+.form-group {
+  margin-bottom: 13px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.checkbox-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: transparent 1px solid;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #eee;
+  color: black;
+  border: black 1px solid;
+}
+
+.submit-button {
+  background-color: black;
+  color: #eee;
+}
+
+.cancel-button {
+  background-color: #eee;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+hr {
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  accent-color: orange;
+}
+
+input[type="checkbox"] {
+  accent-color: orange;
+}
+
+
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.swal2-popup {
+  width: 250px;
+  height: 240px;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.custom-swal {
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.custom1-swal {
+  width: 250px;
+  height: 220px;
+  padding: 10px;
+  font-size: 11px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid orange;
+  box-shadow: 0 0 5px rgb(240, 127, 28);
+}
+
+input[type="password"]:focus {
+  outline: none;
+  border: 2px solid orange;
+  box-shadow: 0 0 5px rgb(240, 127, 28);
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: 2px solid orange;
+  box-shadow: 0 0 5px rgb(240, 127, 28);
+}
+
+input[type="tel"]:focus {
+  outline: none;
+  border: 2px solid orange;
+  box-shadow: 0 0 5px rgb(240, 127, 28);
+}
+
+
+.form-input:focus {
+  border: 2px solid orange;
+  outline: none;
+  box-shadow: 0 0 5px rgb(240, 127, 28);
+}

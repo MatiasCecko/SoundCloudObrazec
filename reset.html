@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>SoundCloude: Reset Passwrod</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="slike/soundcloud.jpg">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="preload" href="slike/ozadje.png" as="image">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <img src="slike/logo.png" alt="Logo" class="logo">
+
+
+    <form id="resetForm">
+      <p class="navodilo">Enter the email address associated with your SoundCloude account and we'll send you an email.
+      </p>
+      <div class="form-group">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" name="email" id="email" class="form-input" maxlength="30" required>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" id="Button" class="button submit-button">Send</button>
+        <button type="reset" class="button cancel-button" onclick="window.location.href='login.html';">Go back</button>
+
+      </div>
+
+      <div class="footer">
+        <p>Sound​Cloud<sup>&copy;</sup></p>
+      </div>
+
+    </form>
+  </div>
+  <script src="javascript/sweetalert3.js"></script>
+
+
+</body>
+
+</html>
