@@ -14,5 +14,3 @@ SWEETALERTS:
 ![image](https://github.com/user-attachments/assets/64682fe4-e967-4358-a0e0-f35d1756cab6)
 ![image](https://github.com/user-attachments/assets/56739a22-d51c-4b44-a999-b58d40cd0ef3)
 ![image](https://github.com/user-attachments/assets/1bd1a70e-921d-4cac-bcd2-3cb3a967dedc)
-
-Matias Čečko
