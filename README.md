@@ -26,13 +26,13 @@ Obrazec vsebuje funkcionalnost, ki takoj preveri, ali so vsa polja pravilno izpo
 
 <h1>SLIKE</h1>
 
-OBRAZEC:
+<h2>Obrazec</h2>
 
 ![image](https://github.com/user-attachments/assets/db276dbb-00c4-47d2-8cd0-93f44de34d50)
 ![image](https://github.com/user-attachments/assets/1f049392-a412-40b6-8ebb-5d09c81f4553)
 ![image](https://github.com/user-attachments/assets/9932ed13-d6ae-4846-8983-58993e97513d)
 
-SWEETALERTS:
+<h2>Sweetalerts</h2>
 
 ![image](https://github.com/user-attachments/assets/7d91ec5b-9ead-4ef3-8c18-175cfe4e2f4a)
 ![image](https://github.com/user-attachments/assets/64682fe4-e967-4358-a0e0-f35d1756cab6)
