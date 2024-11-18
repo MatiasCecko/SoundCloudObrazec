@@ -10,9 +10,9 @@ Obrazec vsebuje animacijo, ki je prikazana, ko uporabnik prvič dostopa do stran
 
 <h2>Več funkcionalnosti v enem obrazcu</h2>
 
-Prijava: Polja za vnos uporabniškega imena (e-pošta) in gesla ter gumb za prijavo.
-Registracija: Možnost za ustvarjanje novega uporabniškega računa, s polji za ime, e-poštni naslov, geslo in potrditvijo gesla.
-Sprememba gesla: Možnost za ponastavitev ali spremembo gesla, kjer uporabnik vnese trenutni in nov geslo ter potrdi spremembo.
+Prijava: Polja za vnos uporabniškega imena in gesla ter gumb za prijavo.
+Registracija: Možnost za ustvarjanje novega uporabniškega računa, s polji za ime, priimek, e-poštni naslov, geslo in potrditvijo gesla.
+Sprememba gesla: Možnost za ponastavitev ali spremembo gesla.
 
 <h2>Interaktivni elementi</h2>
 
