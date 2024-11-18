@@ -1,8 +1,9 @@
-<h1>Projektna naloga 1 – Izdelava lastnega obrazca</h1>
+<h1>PROJEKTNA NALOGA 1 - IZDELAVA LASTNEGA OBRAZCA</h1>
+
 
 Za svojo projektno nalogo sem se odločil oblikovati obrazec za platformo SoundCloud.
 
-
+<h1>SLIKE</h1>
 
 OBRAZEC:
 
