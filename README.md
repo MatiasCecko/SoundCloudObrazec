@@ -4,6 +4,24 @@ Za svojo projektno nalogo sem se odločil oblikovati obrazec za platformo SoundC
 
 <h1>LASTNOSTI</h1>
 
+<h2>Animacija ob začetku</h2>
+
+Obrazec vsebuje animacijo, ki je prikazana, ko uporabnik prvič dostopa do strani (na primer prikazovalna animacija logotipa ali nežno pojavijo polja za vnos).
+Animacija lahko pomaga uporabniku pri prijetnem začetnem občutku, še posebej pri bolj interaktivnih platformah.
+Več funkcionalnosti v enem obrazcu:
+
+Prijava: Polja za vnos uporabniškega imena (e-pošta) in gesla ter gumb za prijavo.
+Registracija: Možnost za ustvarjanje novega uporabniškega računa, s polji za ime, e-poštni naslov, geslo in potrditvijo gesla.
+Sprememba gesla: Možnost za ponastavitev ali spremembo gesla, kjer uporabnik vnese trenutni in nov geslo ter potrdi spremembo.
+Interaktivni elementi:
+
+SweetAlert obvestila: Uporaba animiranih obvestil za potrditev akcij (npr. "Prijava uspešna", "Geslo je bilo uspešno spremenjeno" ali opozorila, kot je "Geslo ni pravilno").
+Obvestila so lahko oblikovana v prijetnem in "sladkem" stilu z mehkim prehodom, kar izboljša uporabniško izkušnjo.
+Preverjanje v realnem času:
+
+Obrazec vsebuje funkcionalnost, ki takoj preveri, ali so vsa polja pravilno izpolnjena (npr. preverjanje e-poštnega naslova, dolžine gesla, moč gesla itd.), kar zmanjšuje napake in potrebo po popravkih.
+
+
 <h1>SLIKE</h1>
 
 OBRAZEC:
